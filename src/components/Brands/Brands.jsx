@@ -16,7 +16,7 @@ const Brands = () => {
             {BrandsData.map((el,i) => (
                 <Box width="180px" height="212px">
                     <img style={{borderRadius:"5px",width:"180px", height:"172px",cursor:"pointer"}} src={el.img}/>
-                    <Box width="180px" height="212px">
+                    <Box width="180px">
                         <p style={{fontWeight:"500"}}>{el.heading}</p>
                     </Box>
                 </Box>
