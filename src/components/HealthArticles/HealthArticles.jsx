@@ -19,7 +19,7 @@ const HealthArticles = () => {
                 border="1px solid #e8e6e6" borderRadius="7px" 
                 className={styles.img}>
                     <img style={{width:"230px", height:"173.75px",borderTopLeftRadius:"5px",
-                    borderTopRightRadius:"5px"}} src={el.img}/>
+                    borderTopRightRadius:"5px"}} src={el.img} alt=''/>
                     <Box width="230px" padding="16px">
                         <p style={{fontWeight:"500",textAlign:"left",color:"#4f4d4a"}}>{el.heading}</p>
                     </Box>

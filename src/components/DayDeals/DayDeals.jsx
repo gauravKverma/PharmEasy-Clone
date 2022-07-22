@@ -17,7 +17,7 @@ const DayDeals = () => {
         <Stack direction="horizontal" gap="20px" marginTop="30px"
         justify="space-between" overflow="scroll" height="320px">
             {DayDealsData.map((el,i) => (
-                <Box>
+                <Box key={i}>
                     <Box className={styles.img} padding="24px 16px" width="184px" 
                     height="192px" border="1px solid #f5f5f5" borderRadius="10px" 
                     style={{display:"flex", alignItems:"center"}}>

@@ -1,4 +1,4 @@
-import { Box, Heading, Image, Stack } from '@chakra-ui/react'
+import { Box, Heading, Stack } from '@chakra-ui/react'
 import React from 'react'
 import { BrandsData } from './BrandsData'
 
@@ -14,8 +14,9 @@ const Brands = () => {
         <Stack direction="horizontal" gap="30px"
         justify="space-between" overflow="scroll" marginTop="25px">
             {BrandsData.map((el,i) => (
-                <Box width="180px" height="212px">
-                    <img style={{borderRadius:"5px",width:"180px", height:"172px",cursor:"pointer"}} src={el.img}/>
+                <Box key={i} width="180px" height="212px">
+                    <img style={{borderRadius:"5px",width:"180px", height:"172px",cursor:"pointer"}} src={el.img}
+                    alt=''/>
                     <Box width="180px">
                         <p style={{fontWeight:"500"}}>{el.heading}</p>
                     </Box>

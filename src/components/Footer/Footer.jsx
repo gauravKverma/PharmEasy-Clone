@@ -10,27 +10,27 @@ const Footer = () => {
             <Stack gap="10px">
                 <Text fontSize="16px" fontWeight="700">Company</Text>
                 {Company.map((el,i) => (
-                    <Text fontSize="14px" fontWeight="500" cursor="pointer">{el.link}</Text>
+                    <Text key={i} fontSize="14px" fontWeight="500" cursor="pointer">{el.link}</Text>
                 ))}
                 <Text fontSize="16px" fontWeight="700" paddingTop="20px">Our Services</Text> 
                 {OurServices.map((el,i) => (
-                    <Text fontSize="14px" fontWeight="500" cursor="pointer">{el.link}</Text>
+                    <Text key={i} fontSize="14px" fontWeight="500" cursor="pointer">{el.link}</Text>
                 ))}
             </Stack>
             <Stack gap="10px">
                 <Text fontSize="16px" fontWeight="700">Featured Categories</Text>
                 {Categories.map((el,i) => (
-                    <Text fontSize="14px" fontWeight="500" cursor="pointer">{el.link}</Text>
+                    <Text key={i} fontSize="14px" fontWeight="500" cursor="pointer">{el.link}</Text>
                 ))}
             </Stack>
             <Stack gap="10px">
                 <Text fontSize="16px" fontWeight="700">Need Help</Text>
                 {NeedHelp.map((el,i) => (
-                    <Text fontSize="14px" fontWeight="500" cursor="pointer">{el.link}</Text>
+                    <Text key={i} fontSize="14px" fontWeight="500" cursor="pointer">{el.link}</Text>
                 ))}
                 <Text fontSize="16px" fontWeight="700" paddingTop="20px">Policy Info</Text> 
                 {PolicyInfo.map((el,i) => (
-                    <Text fontSize="14px" fontWeight="500" cursor="pointer">{el.link}</Text>
+                    <Text key={i} fontSize="14px" fontWeight="500" cursor="pointer">{el.link}</Text>
                 ))}
             </Stack>
             <Stack gap="10px" marginRight="20px">
@@ -48,7 +48,7 @@ const Footer = () => {
                 <Stack direction="horizontal" justify="space-between">
                     <Stack direction="horizontal" gap="40px" width="784px" height="24px">
                     {Partners.map((el,i) => (
-                        <Image src={el.img} height="18px"/>
+                        <Image key={i} src={el.img} height="18px"/>
                         ))}
                     </Stack>
                     <Text fontSize="14px">© 2022 PharmEasy. All Rights Reserved</Text>
