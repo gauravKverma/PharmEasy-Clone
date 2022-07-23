@@ -3,7 +3,6 @@ import Brands from '../components/Brands/Brands'
 import Carousel from '../components/Carousel/Carousel'
 import Categories from '../components/Categories/Categories'
 import DayDeals from '../components/DayDeals/DayDeals'
-import Footer from '../components/Footer/Footer'
 import HealthArticles from '../components/HealthArticles/HealthArticles'
 import LabTests from '../components/LabTests/LabTests'
 import Offers from '../components/Offers/Offers'
@@ -20,7 +19,6 @@ const Home = () => {
         <DayDeals/>
         <HealthArticles/>
         <Reviews/>
-        <Footer/>
     </div>
   )
 }

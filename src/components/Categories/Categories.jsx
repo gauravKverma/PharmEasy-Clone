@@ -9,7 +9,7 @@ const Categories = () => {
 
     const handleClick = (heading) => {
         heading = heading.toLowerCase();
-        navigate(`/${heading}`)
+        navigate(`/category/${heading}`)
     }
 
   return (

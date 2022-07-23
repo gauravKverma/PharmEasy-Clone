@@ -15,7 +15,7 @@ const Navbar = () => {
         navigate("/")
     }
   return (
-    <div style={{backgroundColor:"#37857e"}}>
+    <div style={{backgroundColor:"#37857e",position:"sticky", top:"0px",zIndex:"1"}}>
         <div className={styles.navbar}>
             <div className={styles.imageDiv}>
                 <img style={{cursor:"pointer"}} onClick={GoToHomePage} src="https://i.postimg.cc/rmXnhdV7/Screenshot-2022-07-20-at-1-48-13-AM.png" alt="" 
