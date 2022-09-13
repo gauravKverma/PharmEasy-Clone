@@ -12,7 +12,7 @@ CSS
 Javascript
 
 <h3>Deployed Link</h3>
-<a href="https://incomparable-pithivier-ba5336.netlify.app/"></a>
+<a href="https://incomparable-pithivier-ba5336.netlify.app/">https://incomparable-pithivier-ba5336.netlify.app/</a>
 
 
 <hr/>
