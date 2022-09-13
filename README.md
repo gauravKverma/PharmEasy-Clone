@@ -2,7 +2,7 @@
 
 <p>PharmEasy is an Indian company involved in selling online medicines, diagnostics and telehealth.</p>
 
-<p>This was an individual project.</p>
+<p>This was an individual project which was completed in 4 days.</p>
 
 <h3>Tech stack</h3>
 React
