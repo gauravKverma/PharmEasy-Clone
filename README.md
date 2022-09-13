@@ -1,5 +1,19 @@
 <h1>PharmEasy Clone</h1>
 
+<p>We tried to build the clone of the website ASOS. ASOS is a British online fashion and cosmetic retailer. The company was founded in 2000 in London, primarily aimed at young adults.</p>
+
+<p>This was an individual project.</p>
+
+<h3>Tech stack</h3>
+React
+Chakra-ui
+HTML
+CSS
+Javascript
+
+<h3>Deployed Link</h3>
+<a href="https://incomparable-pithivier-ba5336.netlify.app/"></a>
+
 
 <hr/>
 
